@@ -1,0 +1,17 @@
+name: ServerText
+version: 1.0.0
+main: com.example.servertext.ServerText
+api-version: '1.21'
+description: Custom text above the hotbar.
+softdepend: [PlaceholderAPI]
+
+commands:
+  servertext:
+    description: Reload or change the text
+    usage: /servertext reload | set <text>
+    aliases: [stext]
+
+permissions:
+  servertext.admin:
+    description: Allows reloading and changing the text
+    default: op

@@ -1,0 +1,15 @@
+# The text shown above the hotbar. Edit it here, or in-game with: /servertext set <text>
+# Run /servertext reload after editing this file.
+#
+# Colors/formatting use MiniMessage: https://docs.advntr.dev/minimessage/format.html
+#   <red> <gold> <gray> <white> <bold> <#ff55aa> <gradient:red:blue>text</gradient>
+#
+# Optional placeholders: %player% %online% %max% %ping% %world%
+# (PlaceholderAPI placeholders also work if you have it installed.)
+text: "<gray>naw.regionpvp.com | 25907"
+
+# How often it refreshes, in ticks (20 = 1 second).
+update-ticks: 20
+
+# Only show in these worlds. Leave empty ([]) to show everywhere.
+enabled-worlds: []
